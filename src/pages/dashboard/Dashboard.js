@@ -9,7 +9,7 @@ import {
   Tooltip,
   ResponsiveContainer
 } from "recharts";
-import profile from "../assets/img/a middle age Kenyan man wearing African attire.png";
+import profile from "../../assets/img/a middle age Kenyan man wearing African attire.png";
 
 const data = [
   { month: "Jan", income: 100000, expense: 80000 },

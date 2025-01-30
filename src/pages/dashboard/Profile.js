@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import CustomTable from "./CustomTable";
-import UserForm from "./UserForm";
+import CustomTable from "../../components/CustomTable";
+import UserForm from "../../components/UserForm";
+import { Signup } from "../auth/Signup";
 
 const Profile = () => {
   const [users, setUsers] = useState([]);
@@ -26,8 +27,8 @@ const Profile = () => {
       {users.length > 0 && <CustomTable data={basicUserList} />}
 
       <h2>Add User</h2>
-      <UserForm />
+      <Signup />
     </div>
-  )
-}
-export default Profile
+  );
+};
+export default Profile;

@@ -1,9 +1,9 @@
 import Sidebar from "./components/Sidebar";
-import Dashboard from "./components/Dashboard";
+import Dashboard from "./pages/dashboard/Dashboard";
 import { Routes, Route, Navigate } from "react-router-dom";
-import Profile from "./components/Profile";
-import { Login } from "./components/Login";
-import { Signup } from "./components/Signup";
+import Profile from "./pages/dashboard/Profile";
+import { Login } from "./pages/auth/Login";
+import { Signup } from "./pages/auth/Signup";
 
 const App = () => {
   return (
